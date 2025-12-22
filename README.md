@@ -1,13 +1,22 @@
 # Expense Tracker
 
+```text
+  ______                                  _______                 _
+ |  ____|                                |__   __|               | |
+ | |__  __  ___ __   ___ _ __  ___  ___     | |_ __ __ _  ___| | _____ _ __
+ |  __| \ \/ / '_ \ / _ \ '_ \/ __|/ _ \    | | '__/ _` |/ __| |/ / _ \ '__|
+ | |____ >  <| |_) |  __/ | | \__ \  __/    | | | | (_| | (__|   <  __/ |
+ |______/_/\_\ .__/ \___|_| |_|___/\___|    |_|_|  \__,_|\___|_|\_\___|_|
+             | |
+             |_|
+```             
 A modern, user-friendly Expense Tracker application built with **Flutter** to help you manage your personal finances. Keep track of your daily income and expenses, visualize your spending habits with charts, and stay on top of your budget.
 
 ## Features
 
 * **Transaction Logging**: Easily add new expenses with a title, amount, date, and category.
-* **Recent Transactions**: View a list of your most recent transactions at a glance.
-* **Weekly Spending Chart**: Visualize your expenses for the last 7 days with an interactive bar chart.
-* **Category Management**: Organize your spending into predefined categories (e.g., Food, Travel, Leisure, Work).
+* **Spending Chart**: Visualize your expenses.
+* **Category Management**: Organize your spending into predefined categories (e.g., food, travel, leisure, work).
 * **Date Selection**: Pick specific dates for your transactions using a built-in date picker.
 * **Delete Transactions**: Remove incorrect or old entries with a simple swipe action.
 * **Responsive UI**: Designed to look great on both Android .
@@ -16,15 +25,22 @@ A modern, user-friendly Expense Tracker application built with **Flutter** to he
 
 Here is a glimpse of the application in action:
 
-| **Dashboard & Chart (Dark)** | **Dashboard & Chart (Light)** |
+| **Dashboard & Chart (Dark)** | **Dashboard & Chart (Light)** | **Add Expense (Light)** |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/home_dark.jpg" alt="Home Screen dark" width="250"/> | <img src="assets/screenshots/home_light.jpg" alt="Home Screen Light" width="250"/> |<img src="assets/screenshots/add_exLight.jpg" alt="Add Expense" width="250"/> |
+
+| **Date Selection (Dark)** | **Category Selection Dropdown (Dark)** | **Invalid Entry (Dark)** |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/calendar.jpg" alt="Calendar" width="250"/> | <img src="assets/screenshots/dropdown.jpg" alt="Dropdown" width="250"/> |<img src="assets/screenshots/invalid.jpg" alt="Invalid Entry" width="250"/> |
+
+| **Delete Expense (Dark)** | **Undo Delete (Dark)** |
 |:---:|:---:|
-| <img src="assets/screenshot/home_dark.jpg" alt="Home Screen" width="250"/> | <img src="assets/screenshot/home_light.jpg" alt="Add Transaction" width="250"/> |
+| <img src="assets/screenshots/delete.jpg" alt="Delete" width="250"/> | <img src="assets/screenshots/undo.jpg" alt="undo" width="250"/> |
 
 ## Tech Stack
 
 * **Framework**: [Flutter](https://flutter.dev/)
 * **Language**: [Dart](https://dart.dev/)
-* **Icons**: [Cupertino Icons](https://pub.dev/packages/cupertino_icons)
 * **Date Formatting**: [Intl](https://pub.dev/packages/intl)
 
 ## Getting Started
